@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    private AudioManager _audioManager;
     private void Start()
     {
+        _audioManager = FindObjectOfType<AudioManager>();
         Debug.Log("Player started");
     }
 
@@ -25,5 +27,6 @@ public class PlayerManager : MonoBehaviour
     private void Shoot(float direction)
     {
         Debug.Log(direction < 0 ? "Left arrow pressed" : "Right arrow pressed");
+        _audioManager.Play("Gunshot");
     }
 }
