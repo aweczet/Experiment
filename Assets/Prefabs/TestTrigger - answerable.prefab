@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8335746437160227419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8335746437160227417}
+  - component: {fileID: 8335746437160227418}
+  m_Layer: 0
+  m_Name: TestTrigger - answerable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8335746437160227417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335746437160227419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8335746437160227418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8335746437160227419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 782094d170b8ba246b1b793c7b3ca216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    dialogues:
+    - {fileID: 8300000, guid: d1d65a00a65d1ae41a371556e22f7921, type: 3}
+    - {fileID: 8300000, guid: 2f54d038be96bd4438c2132a1d36056e, type: 3}
+    - {fileID: 8300000, guid: 8946a0eb75c778b488a26356180fc2e2, type: 3}
+    - {fileID: 8300000, guid: 096af0759bf1db04eacb23894d44ea4e, type: 3}
+    - {fileID: 8300000, guid: 6523a8dc026b0244d9756448ec9118ed, type: 3}
+    - {fileID: 8300000, guid: 005831ce25e6f0f479f485377b13ab50, type: 3}
+    - {fileID: 8300000, guid: 193be6cf60682f7449d6258bd669a601, type: 3}
+    - {fileID: 8300000, guid: e136735fd17411c4ba0147a3cdc85dc6, type: 3}
+    - {fileID: 8300000, guid: e3c777911bfe7474e977064045cee31e, type: 3}
+    answerable: 1
